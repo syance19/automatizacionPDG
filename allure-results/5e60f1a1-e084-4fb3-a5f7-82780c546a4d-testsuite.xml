@@ -1,0 +1,227 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664125052407' stop='1664125059484'>
+    <name>Admin actions and permissions: The admin create a new category</name>
+    <title>Admin actions and permissions: The admin create a new category</title>
+    <test-cases>
+        <test-case start='1664125052407' status='passed' stop='1664125052409'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1664125052410' status='passed' stop='1664125054899'>
+            <name>Given The user is on the login page</name>
+            <title>Given The user is on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Login flow into BetLeague'/>
+                <label name='testId' value='LoginFlow'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+                <parameter kind='environment-variable' name='BetLeague' value='https://betleague-af205.firebaseapp.com/'/>
+            </parameters>
+            <steps>
+                <step start='1664125052411' status='passed' stop='1664125052411'>
+                    <name>STEP: The user is on the login page</name>
+                    <title>STEP: The user is on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664125054899' status='passed' stop='1664125055209'>
+            <name>When The user login with username and password from admin</name>
+            <title>When The user login with username and password from admin</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='LoginFlow'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664125054899' status='passed' stop='1664125054899'>
+                    <name>STEP: The user login with username and password</name>
+                    <title>STEP: The user login with username and password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664125055209' status='passed' stop='1664125056293'>
+            <name>When the admin opens the dashboard on create category option</name>
+            <title>When the admin opens the dashboard on create category option</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='CreateNewCategoryFlow'/>
+                <label name='feature' value='Admin actions and permissions'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664125055209' status='passed' stop='1664125055209'>
+                    <name>STEP: the admin opens the dashboard on create category option</name>
+                    <title>STEP: the admin opens the dashboard on create category option</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664125056293' status='passed' stop='1664125056384'>
+            <name>Then the page will show a table with the categories</name>
+            <title>Then the page will show a table with the categories</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='CreateNewCategoryFlow'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664125056294' status='passed' stop='1664125056294'>
+                    <name>STEP: the page will show a table with the categories</name>
+                    <title>STEP: the page will show a table with the categories</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>verifiying if Lista de categorias is Lista de categorias</description>
+        </test-case>
+        <test-case start='1664125056384' status='passed' stop='1664125056397'>
+            <name>When the admin clicks on new category botton</name>
+            <title>When the admin clicks on new category botton</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='CreateNewCategoryFlow'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664125056385' status='passed' stop='1664125056385'>
+                    <name>STEP: the admin clicks on new category botton</name>
+                    <title>STEP: the admin clicks on new category botton</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664125056397' status='passed' stop='1664125059402'>
+            <name>Then the page will show a form for create a new category</name>
+            <title>Then the page will show a form for create a new category</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='CreateNewCategoryFlow'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664125056398' status='passed' stop='1664125056398'>
+                    <name>STEP: the page will show a form for create a new category</name>
+                    <title>STEP: the page will show a form for create a new category</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>verifiying if https://betleague-af205.firebaseapp.com/addCategoria contains https://betleague-af205.firebaseapp.com/addCategoria</description>
+        </test-case>
+        <test-case start='1664125059402' status='passed' stop='1664125059474'>
+            <name>When the user types the category and create</name>
+            <title>When the user types the category and create</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='CreateNewCategoryFlow'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664125059402' status='passed' stop='1664125059402'>
+                    <name>STEP: the user types the category and create</name>
+                    <title>STEP: the user types the category and create</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664125059474' status='failed' stop='1664125059483'>
+            <name>And the category is on the table</name>
+            <title>And the category is on the table</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='testId' value='CreateNewCategoryFlow'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664125059475' status='passed' stop='1664125059475'>
+                    <name>STEP: the page will show a form for create a new category</name>
+                    <title>STEP: the page will show a form for create a new category</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toEqual(expected) // deep equality</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: true
+                Received: false
+                    at AdminPage.toEqualBool (C:\Users\Usuario\Desktop\TABetleague\test\page-objects\base.page.ts:93:19)
+                    at World.&lt;anonymous> (C:\Users\Usuario\Desktop\TABetleague\test\step-definitions\admin-step-definition.ts:40:15)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+            <description type='text'>verifiying if false to equal true</description>
+        </test-case>
+        <test-case start='1664125059483' status='passed' stop='1664125059483'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

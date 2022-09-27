@@ -1,0 +1,173 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664297581801' stop='1664297602437'>
+    <name>Create a product and see on the list: The user create a new product</name>
+    <title>Create a product and see on the list: The user create a new product</title>
+    <test-cases>
+        <test-case start='1664297581802' status='passed' stop='1664297581803'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1664297581803' status='passed' stop='1664297584598'>
+            <name>Given The user is logged into BetLeague</name>
+            <title>Given The user is logged into BetLeague</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+                <label name='feature' value='Elements on User Profile'/>
+                <label name='testId' value='UserProfile'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+                <parameter kind='environment-variable' name='BetLeague' value='https://betleague-af205.firebaseapp.com/'/>
+            </parameters>
+            <steps>
+                <step start='1664297581805' status='passed' stop='1664297581805'>
+                    <name>STEP: The user is logged into BetLeague</name>
+                    <title>STEP: The user is logged into BetLeague</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664297584598' status='passed' stop='1664297586139'>
+            <name>When the user open the dashboard</name>
+            <title>When the user open the dashboard</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+                <label name='feature' value='Create a product and see on the list'/>
+                <label name='testId' value='Auction product'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664297584598' status='passed' stop='1664297584598'>
+                    <name>STEP: the user open the dashboard</name>
+                    <title>STEP: the user open the dashboard</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664297586139' status='passed' stop='1664297586229'>
+            <name>When the user choose a kind of auction</name>
+            <title>When the user choose a kind of auction</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+                <label name='testId' value='RegisterAndLoginFlow'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664297586140' status='passed' stop='1664297586140'>
+                    <name>STEP: the user choose a kind of auction</name>
+                    <title>STEP: the user choose a kind of auction</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664297586229' status='passed' stop='1664297591246'>
+            <name>Then the page will redirect to a form with the options</name>
+            <title>Then the page will redirect to a form with the options</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+                <label name='testId' value='Auction product'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664297586230' status='passed' stop='1664297586230'>
+                    <name>STEP: the page will redirect to a form with the options</name>
+                    <title>STEP: the page will redirect to a form with the options</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664297591246' status='passed' stop='1664297601794'>
+            <name>When the user fills the entire form and create the product</name>
+            <title>When the user fills the entire form and create the product</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+                <label name='feature' value='Create a product and see on the list'/>
+                <label name='testId' value='Auction product'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664297591247' status='passed' stop='1664297591247'>
+                    <name>STEP: the user fills the entire form and create the product</name>
+                    <title>STEP: the user fills the entire form and create the product</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664297601795' status='passed' stop='1664297602436'>
+            <name>Then the page will show the product in a new page</name>
+            <title>Then the page will show the product in a new page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+                <label name='feature' value='Create a product and see on the list'/>
+                <label name='testId' value='Auction product'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664297601795' status='passed' stop='1664297601795'>
+                    <name>STEP: the page will show the product in a new page</name>
+                    <title>STEP: the page will show the product in a new page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>verifiying if Lista de productos subastados is Lista de productos subastados</description>
+        </test-case>
+        <test-case start='1664297602437' status='passed' stop='1664297602437'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,301 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664122711806' stop='1664122738052'>
+    <name>Login flow into BetLeague: The user register then the admin delete his user</name>
+    <title>Login flow into BetLeague: The user register then the admin delete his user</title>
+    <test-cases>
+        <test-case start='1664122711807' status='passed' stop='1664122711808'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1664122711808' status='passed' stop='1664122714141'>
+            <name>Given The user is on the login page</name>
+            <title>Given The user is on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Login flow into BetLeague'/>
+                <label name='testId' value='LoginFlow'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+                <parameter kind='environment-variable' name='BetLeague' value='https://betleague-af205.firebaseapp.com/'/>
+            </parameters>
+            <steps>
+                <step start='1664122711810' status='passed' stop='1664122711810'>
+                    <name>STEP: The user is on the login page</name>
+                    <title>STEP: The user is on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664122714142' status='passed' stop='1664122715765'>
+            <name>When The new user register on the page</name>
+            <title>When The new user register on the page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='testId' value='RegisterAndLoginFlow'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664122714142' status='passed' stop='1664122714142'>
+                    <name>STEP: The new user register on the page</name>
+                    <title>STEP: The new user register on the page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664122715765' status='passed' stop='1664122716819'>
+            <name>And confirms the register</name>
+            <title>And confirms the register</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='testId' value='RegisterAndLoginFlow'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664122715766' status='passed' stop='1664122715766'>
+                    <name>STEP: confirms the register</name>
+                    <title>STEP: confirms the register</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664122716819' status='passed' stop='1664122716834'>
+            <name>Then The user should see a modal with the username</name>
+            <title>Then The user should see a modal with the username</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='testId' value='LoginFlow'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664122716819' status='passed' stop='1664122716819'>
+                    <name>STEP: The user should see a modal with the username</name>
+                    <title>STEP: The user should see a modal with the username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664122716835' status='passed' stop='1664122716858'>
+            <name>When The user logout from the page</name>
+            <title>When The user logout from the page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='testId' value='RegisterAndLoginFlow'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664122716835' status='passed' stop='1664122716835'>
+                    <name>STEP: The user logout from the page</name>
+                    <title>STEP: The user logout from the page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664122716858' status='passed' stop='1664122720470'>
+            <name>Then The page will show the landing page</name>
+            <title>Then The page will show the landing page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='testId' value='RegisterAndLoginFlow'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664122716859' status='passed' stop='1664122716859'>
+                    <name>STEP: The page will show the landing page</name>
+                    <title>STEP: The page will show the landing page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664122720470' status='passed' stop='1664122720598'>
+            <name>When The user login with username and password from admin</name>
+            <title>When The user login with username and password from admin</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='testId' value='LoginFlow'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664122720471' status='passed' stop='1664122720471'>
+                    <name>STEP: The user login with username and password</name>
+                    <title>STEP: The user login with username and password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664122720598' status='passed' stop='1664122721186'>
+            <name>And open the dashboard for managment user</name>
+            <title>And open the dashboard for managment user</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='testId' value='RegisterAndLoginFlow'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664122720598' status='passed' stop='1664122720598'>
+                    <name>STEP: open the dashboard for managment user</name>
+                    <title>STEP: open the dashboard for managment user</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664122721186' status='passed' stop='1664122724249'>
+            <name>Then The page will show a table with all the users in the system</name>
+            <title>Then The page will show a table with all the users in the system</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='testId' value='Elements on user profile'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664122721187' status='passed' stop='1664122721187'>
+                    <name>STEP: The page will show a table with all the users in the system</name>
+                    <title>STEP: The page will show a table with all the users in the system</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664122724249' status='passed' stop='1664122736821'>
+            <name>When delete the user that just registered</name>
+            <title>When delete the user that just registered</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='testId' value='RegisterAndLoginFlow'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664122724250' status='passed' stop='1664122724250'>
+                    <name>STEP: delete the user that just registered</name>
+                    <title>STEP: delete the user that just registered</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664122736821' status='passed' stop='1664122736842'>
+            <name>And The user logout from the page</name>
+            <title>And The user logout from the page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='testId' value='RegisterAndLoginFlow'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664122736821' status='passed' stop='1664122736822'>
+                    <name>STEP: The user logout from the page</name>
+                    <title>STEP: The user logout from the page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664122736842' status='passed' stop='1664122738051'>
+            <name>And The user login with delete username and password</name>
+            <title>And The user login with delete username and password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='testId' value='RegisterAndLoginFlow'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664122736843' status='passed' stop='1664122736843'>
+                    <name>STEP: The user login with delete username and password</name>
+                    <title>STEP: The user login with delete username and password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664122738051' status='passed' stop='1664122738051'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,176 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664050708248' stop='1664050713787'>
+    <name>Elements on the list of products and their functions: Apply Filters</name>
+    <title>Elements on the list of products and their functions: Apply Filters</title>
+    <test-cases>
+        <test-case start='1664050708248' status='passed' stop='1664050708250'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1664050708250' status='passed' stop='1664050711441'>
+            <name>Given The user is logged into BetLeague</name>
+            <title>Given The user is logged into BetLeague</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Elements on User Profile'/>
+                <label name='testId' value='UserProfile'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+                <parameter kind='environment-variable' name='BetLeague' value='https://betleague-af205.firebaseapp.com/'/>
+            </parameters>
+            <steps>
+                <step start='1664050708251' status='passed' stop='1664050708251'>
+                    <name>STEP: The user is logged into BetLeague</name>
+                    <title>STEP: The user is logged into BetLeague</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664050711441' status='passed' stop='1664050711457'>
+            <name>And The user is on auction page</name>
+            <title>And The user is on auction page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Elements on the list of products and their functions'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+                <parameter kind='environment-variable' name='BetLeague' value='https://betleague-af205.firebaseapp.com/'/>
+            </parameters>
+            <steps>
+                <step start='1664050711442' status='passed' stop='1664050711442'>
+                    <name>STEP: The user is on auction page</name>
+                    <title>STEP: The user is on auction page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664050711457' status='passed' stop='1664050713659'>
+            <name>When the user type on input filter</name>
+            <title>When the user type on input filter</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Elements on the list of products and their functions'/>
+                <label name='testId' value='Apply Filters'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664050711457' status='passed' stop='1664050711457'>
+                    <name>STEP: the user type on input filter</name>
+                    <title>STEP: the user type on input filter</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664050713659' status='passed' stop='1664050713699'>
+            <name>Then the page will show the result</name>
+            <title>Then the page will show the result</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Elements on the list of products and their functions'/>
+                <label name='testId' value='Apply Filters'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664050713659' status='passed' stop='1664050713659'>
+                    <name>STEP: the page will show the result</name>
+                    <title>STEP: the page will show the result</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>verifiying if BMW is BMW</description>
+        </test-case>
+        <test-case start='1664050713699' status='passed' stop='1664050713738'>
+            <name>When the user clicks on clear filter</name>
+            <title>When the user clicks on clear filter</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Elements on the list of products and their functions'/>
+                <label name='testId' value='Apply Filters'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664050713699' status='passed' stop='1664050713699'>
+                    <name>STEP: the user clicks on clear filter</name>
+                    <title>STEP: the user clicks on clear filter</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664050713741' status='passed' stop='1664050713786'>
+            <name>Then the page will show the list of all the products</name>
+            <title>Then the page will show the list of all the products</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Elements on the list of products and their functions'/>
+                <label name='testId' value='Apply Filters'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664050713741' status='passed' stop='1664050713741'>
+                    <name>STEP: the page will show the list of all the products</name>
+                    <title>STEP: the page will show the list of all the products</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>verifiying if 1 is greater than 0</description>
+        </test-case>
+        <test-case start='1664050713786' status='passed' stop='1664050713786'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

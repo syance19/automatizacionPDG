@@ -1,0 +1,129 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664050309306' stop='1664050323176'>
+    <name>Elements on the list of products and their functions: Apply Filters</name>
+    <title>Elements on the list of products and their functions: Apply Filters</title>
+    <test-cases>
+        <test-case start='1664050309306' status='passed' stop='1664050309307'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1664050309307' status='passed' stop='1664050312863'>
+            <name>Given The user is logged into BetLeague</name>
+            <title>Given The user is logged into BetLeague</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Elements on User Profile'/>
+                <label name='testId' value='UserProfile'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+                <parameter kind='environment-variable' name='BetLeague' value='https://betleague-af205.firebaseapp.com/'/>
+            </parameters>
+            <steps>
+                <step start='1664050309309' status='passed' stop='1664050309309'>
+                    <name>STEP: The user is logged into BetLeague</name>
+                    <title>STEP: The user is logged into BetLeague</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664050312864' status='passed' stop='1664050312878'>
+            <name>And The user is on auction page</name>
+            <title>And The user is on auction page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Elements on the list of products and their functions'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+                <parameter kind='environment-variable' name='BetLeague' value='https://betleague-af205.firebaseapp.com/'/>
+            </parameters>
+            <steps>
+                <step start='1664050312864' status='passed' stop='1664050312864'>
+                    <name>STEP: The user is on auction page</name>
+                    <title>STEP: The user is on auction page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664050312878' status='passed' stop='1664050315133'>
+            <name>When the user type on input filter</name>
+            <title>When the user type on input filter</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Elements on the list of products and their functions'/>
+                <label name='testId' value='Apply Filters'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664050312879' status='passed' stop='1664050312879'>
+                    <name>STEP: the user type on input filter</name>
+                    <title>STEP: the user type on input filter</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664050315133' status='passed' stop='1664050323175'>
+            <name>Then the page will show the result</name>
+            <title>Then the page will show the result</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Elements on the list of products and their functions'/>
+                <label name='testId' value='Apply Filters'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664050315133' status='passed' stop='1664050315133'>
+                    <name>STEP: the page will show the result</name>
+                    <title>STEP: the page will show the result</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>verifiying if BMW is BMW</description>
+        </test-case>
+        <test-case start='1664050323175' status='passed' stop='1664050323175'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

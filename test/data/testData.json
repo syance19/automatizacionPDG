@@ -1,0 +1,131 @@
+{
+    "BETLEAGUE_URL": "https://betleague-af205.firebaseapp.com",
+    "validUser": {
+        "BETLEAGUE_USER": "syance6@betleague.com",
+        "PASSWORD": "hola123",
+        "BETLEAGUE_ADMIN": "andres@betleague.com",
+        "PASSWORD_ADMIN": "andres123",
+        "BETLEAGUE_USER_REGISTERED": "test@betleague.com",
+        "PASSWORD_REGISTERED": "test123"
+    },
+    "noValidUser": {
+        "BETLEAGUE_USER": "achu@gmail.com",
+        "PASSWORD": "hola123"
+    },
+    "GENERAL_DATA": {
+        "ERROR_MESSAGE_TITLE_USER_NOT_FOUND": "Error al consultar el Cliente",
+        "ERROR_MESSAGE_BODY_USER_NOT_FOUND": "No se encontro ningun usuario con esos datos.",
+        "ITEM_ORDER_TO_SEEL_DETAIL": "2",
+        "URL_FOR_DETAIL_OF_PRODUCT": "https://betleague-af205.firebaseapp.com/productDetail",
+        "URL_FOR_CREATE_NEW_CATEGORY": "https://betleague-af205.firebaseapp.com/addCategoria",
+        "ERROR_MESSAGE_TITLE_NO_PAYMENT_REGISTER": "Error al consultar los metodos de pago",
+        "ERROR_MESSAGE_BODY_NO_PAYMENT_REGISTER": "no tiene ningun metodo de pago inscrito",
+        "ZERO_RECORDS_ON_TABLE": "Mostrando 0 resultados",
+        "USER_TO_REGISTER": {
+            "Nombre": "Sergio Andrés",
+            "Apellido": "Yance Largo",
+            "Cedula": "123456",
+            "Telefono": "123456"
+        }
+    },
+    "USER_PROFILE_SCREEN": {
+        "GENERAL_DATA": {
+            "LOGOUT_BUTTON_TEXT": "Cerrar sesion"
+        },
+        "NAV_BAR_OPTIONS": {
+            "BLOG": "BLOG",
+            "VIDEOS": "VIDEOS",
+            "SUBASTAS": "PERFIL"
+        },
+        "MODIFY_DATA_OPTIONS": {
+            "Nombre": "Nombre",
+            "Apellido": "Apellido",
+            "Cedula": "Cedula",
+            "Telefono": "Telefono",
+            "Correo": "Correo",
+            "Contraseña": "Contraseña",
+            "Repetir Contrasena": "Repetir Contraseña"
+        },
+        "MODIFY_DATA_TO_SEND": {
+            "Nombre": "Sergio Andrés",
+            "Apellido": "Yance Largo",
+            "Cedula": "123456",
+            "Telefono": "123456",
+            "Correo": "syancepse@gmail.com",
+            "Contraseña": "hola123",
+            "RepetirContrasena": "hola123"
+        },
+        "ADMIN_DASHBOARD_OPTIONS": {
+            "Inicio": "Inicio",
+            "VerUsuarios": "Ver usuarios",
+            "VerSubastas": "Ver subastas",
+            "VerCategorias": "Ver categorias"
+        }
+    },
+    "PRODUCT_SCREEN": {
+        "GENERAL_DATA": {
+            "ERROR_MESSAGE_TITLE": "Error al guardar el producto",
+            "ERROR_MESSAGE_BODY": "El nombre del producto no puede estar vacio."
+        },
+        "FORM_OPTIONS": {
+            "Nombre": "Nombre",
+            "Categoria": "Categoria",
+            "Descripcion": "Descripcion",
+            "Valoracion": "Valoracion"
+            
+        },
+        "FORM_VALUES": {
+            "NOMBRE": "Producto TA",
+            "CATEGORIA": "Motos",
+            "DESCRIPCION": "Framework de automatización",
+            "VALORACION": "2500000",
+            "Date":"27-09-2022",
+            "Time":"20"
+        }
+    },
+    "AUCTION_LIST": {
+        "SUCCESS_DIALOG": "Producto creado con exito!",
+        "PAGE_TITLE": "Lista de productos subastados",
+        "FILTERS_OPTIONS": {
+            "FiltroPorDefault": "Filtro por default",
+            "FiltrarPorMasReciente": "Filtrar por mas reciente",
+            "FiltrarPorMasAntiguo": "Filtrar por mas antiguo",
+            "FiltrarDeMayorAMenorPrecio": "Filtrar de mayor a menor precio",
+            "FiltrarDeMenorAMayorPrecio": "Filtrar de menor a mayor precio"
+        },
+        "GENERAL_DATA": {
+            "FILTER": "BMW",
+            "CATEGORIES_TITLE": "Categorias"
+        },
+        "CATEGORIES_OPTIONS": {
+            "Arte": "Arte",
+            "Cripto": "Cripto",
+            "Tecnologia": "Tecnologia",
+            "Antiguedades": "Antiguedades",
+            "RopaDiseño": "Ropa y diseño de modas",
+            "OtrasCategorias": "Otras categorias"
+        },
+        "CATEGORIES_SELECT_OPTIONS":{
+            "Moda":   "Moda",
+            "Consolas": "Consolas",
+            "Vehiculos": "Vehiculos",
+            "Quimicos":"Quimicos",
+            "Video":"Video"
+        }
+    },
+    "PAYMENTE_PAGE": {
+        "VALUE_FOR_FORMS": {
+            "NUMERO_TARJETA": "5489621457845698",
+            "NOMBRE": "Tarjeta TA",
+            "CVV": "381"
+        }
+    },
+    "ADMIN_PAGE": {
+        "GENERAL_DATA": {
+            "TITLE_FOR_CATEGORIES_TABLE": "Lista de categorias",
+            "NEW_CATEGORY_NAME": "Testing",
+            "ERROR_MESSAGE_TITLE": "Error al crear la categoria",
+            "ERROR_MESSAGE_BODY": "Debe ingresar el nombre de la categoria"
+        }
+    }
+}

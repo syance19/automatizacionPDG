@@ -1,0 +1,174 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664060983644' stop='1664060993839'>
+    <name>Payment: The user creates a new payment method</name>
+    <title>Payment: The user creates a new payment method</title>
+    <test-cases>
+        <test-case start='1664060983645' status='passed' stop='1664060983646'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1664060983646' status='passed' stop='1664060986474'>
+            <name>Given The user is logged into BetLeague</name>
+            <title>Given The user is logged into BetLeague</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Elements on User Profile'/>
+                <label name='testId' value='UserProfile'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+                <parameter kind='environment-variable' name='BetLeague' value='https://betleague-af205.firebaseapp.com/'/>
+            </parameters>
+            <steps>
+                <step start='1664060983647' status='passed' stop='1664060983647'>
+                    <name>STEP: The user is logged into BetLeague</name>
+                    <title>STEP: The user is logged into BetLeague</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664060986474' status='passed' stop='1664060988033'>
+            <name>When the user open the payment create page</name>
+            <title>When the user open the payment create page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Payment'/>
+                <label name='testId' value='Payment list failure'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664060986475' status='passed' stop='1664060986475'>
+                    <name>STEP: the user open the payment create page</name>
+                    <title>STEP: the user open the payment create page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664060988033' status='passed' stop='1664060988127'>
+            <name>Then the page will show a new page with a card</name>
+            <title>Then the page will show a new page with a card</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Payment'/>
+                <label name='testId' value='Payment list failure'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664060988034' status='passed' stop='1664060988034'>
+                    <name>STEP: the page will show a new page with a card</name>
+                    <title>STEP: the page will show a new page with a card</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664060988128' status='passed' stop='1664060988146'>
+            <name>When the user clicks on plus icon</name>
+            <title>When the user clicks on plus icon</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Payment'/>
+                <label name='testId' value='Payment list failure'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664060988128' status='passed' stop='1664060988128'>
+                    <name>STEP: the user clicks on plus icon</name>
+                    <title>STEP: the user clicks on plus icon</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664060988146' status='passed' stop='1664060988201'>
+            <name>Then the page will show a form for create a payment method</name>
+            <title>Then the page will show a form for create a payment method</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Payment'/>
+                <label name='testId' value='Payment list failure'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664060988147' status='passed' stop='1664060988147'>
+                    <name>STEP: the page will show a form for create a payment method</name>
+                    <title>STEP: the page will show a form for create a payment method</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664060988201' status='passed' stop='1664060993838'>
+            <name>When the user fills the entire form</name>
+            <title>When the user fills the entire form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Payment'/>
+                <label name='testId' value='Payment list failure'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps>
+                <step start='1664060988201' status='passed' stop='1664060988201'>
+                    <name>STEP: the user fills the entire form</name>
+                    <title>STEP: the user fills the entire form</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1664060993838' status='passed' stop='1664060993839'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
