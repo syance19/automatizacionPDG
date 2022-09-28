@@ -48,15 +48,18 @@ Feature: Elements on the list of products and their functions
         When  The user clikcs on other categories
         Then  The page will show a pop-up
 
+    # @TABetleague
     Scenario: See available and next auctions
         When The user clikcs on next auctions
         Then The page will show the product or products
         And  The products will show the date that are open
 
+    # @TABetleague
     Scenario: See available and next auctions
         When The user clikcs on next auctions
         Then The page will show a message for no existing products
 
+    # @TABetleague
     Scenario: See available and next auctions
         When The user clikcs on current actions
         Then The page will show the product or products

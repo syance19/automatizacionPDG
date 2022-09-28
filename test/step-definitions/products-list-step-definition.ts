@@ -165,3 +165,12 @@ Then(/^The page will show the next options$/, async (options) => {
         );
     }
 });
+
+Then(/^The page will show a message for no existing products$/, async () => {
+    addStep('The page will show a message for no existing products')
+    allureReporter.addFeature('Elements on the list of products and their functions');
+    allureReporter.addTestId('Newxt auctions funcionallity');
+    await auctionPageList.waitElementToBeDisplayed(await auctionPageList.resultsOfQuery);
+    const actualResult= await (await auctionPageList.resultsOfQuery).getText();
+    auctionPageList.toBe(actualResult,testData.AUCTION_LIST.GENERAL_DATA.RESULTS_FILTERS_NO_DATA);
+});

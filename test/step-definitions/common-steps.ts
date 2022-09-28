@@ -6,6 +6,7 @@ import allureReporter from '@wdio/allure-reporter';
 import testData from "../data/testData.json";
 import basePage from '../page-objects/base.page';
 import auctionPage from '../page-objects/auction-page';
+import auctionPageList from '../page-objects/auction-list';
 
 Given(/^The user is on the login page$/, async () => {
     allureReporter.addEnvironment('BetLeague', 'https://betleague-af205.firebaseapp.com/');
@@ -99,4 +100,10 @@ When(/^the user choose a kind of auction$/, async () => {
     addStep('the user choose a kind of auction')
     allureReporter.addTestId('RegisterAndLoginFlow');
     await auctionPage.chooseAnAuction();
+});
+
+When(/^The user clikcs on next auctions$/, async () => {
+    addStep('The user clikcs on next auctions')
+    allureReporter.addTestId('RegisterAndLoginFlow');
+    await auctionPageList.clickOnnextAuctions();
 });

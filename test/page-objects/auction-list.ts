@@ -64,8 +64,14 @@ class AuctionList extends BasePage {
     get selectForCategories() {
         return $('select.swal2-select');
     }
-    get categoriasSelectOptions(){
+    get categoriasSelectOptions() {
         return $$("[label='categorias'] option");
+    }
+    get btnNextAuctions() {
+        return $('button.botonProximas');
+    }
+    get resultsOfQuery(){
+        return $("div.col:nth-of-type(1)");
     }
     /**
      * Opens the selector 
@@ -114,6 +120,12 @@ class AuctionList extends BasePage {
       */
     public async clickOnSelectCategories() {
         this.clickOnElement(await this.selectForCategories);
+    }
+    /**
+      * Clicks on next auctions to see if there is avaible aucitons on the system
+      */
+    public async clickOnnextAuctions() {
+        this.clickOnElement(await this.btnNextAuctions);
     }
 }
 

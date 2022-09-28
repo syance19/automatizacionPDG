@@ -95,7 +95,8 @@
         },
         "GENERAL_DATA": {
             "FILTER": "BMW",
-            "CATEGORIES_TITLE": "Categorias"
+            "CATEGORIES_TITLE": "Categorias",
+            "RESULTS_FILTERS_NO_DATA":"No hay productos que mostrar"
         },
         "CATEGORIES_OPTIONS": {
             "Arte": "Arte",

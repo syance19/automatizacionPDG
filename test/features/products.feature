@@ -11,7 +11,7 @@ Feature: Create a product and see on the list
             | Descripcion |
             | Valoracion  |
     
-    @TABetleague
+    # @TABetleague
     Scenario: The user create a new product
         When  the user fills the entire form and create the product
         Then  the page will show the product in a new page
