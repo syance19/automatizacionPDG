@@ -1,0 +1,171 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1664502424149' stop='1664502458096'>
+    <name>Admin actions and permissions: Create a empty categroy</name>
+    <title>Admin actions and permissions: Create a empty categroy</title>
+    <test-cases>
+        <test-case start='1664502424150' status='passed' stop='1664502424151'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.62'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1664502424151' status='broken' stop='1664502458092'>
+            <name>Given The user is on the login page</name>
+            <title>Given The user is on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Login flow into BetLeague'/>
+                <label name='testId' value='LoginFlow'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.62'/>
+                <parameter kind='environment-variable' name='BetLeague' value='https://betleague-af205.firebaseapp.com/'/>
+            </parameters>
+            <steps>
+                <step start='1664502424153' status='passed' stop='1664502424153'>
+                    <name>STEP: The user is on the login page</name>
+                    <title>STEP: The user is on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: no such window: target window already closed</message>
+                <stack-trace>no such window: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=106.0.5249.62)
+                    at getErrorFromResponseBody (C:\Users\Usuario\Desktop\TABetleague\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\Usuario\Desktop\TABetleague\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (C:\Users\Usuario\Desktop\TABetleague\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Browser.$ (C:\Users\Usuario\Desktop\TABetleague\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at async Browser.wrapCommandFn (C:\Users\Usuario\Desktop\TABetleague\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async BetLeagueHomePage.signInFlow (C:\Users\Usuario\Desktop\TABetleague\test\page-objects\bet-league-home-page.ts:69:29)
+                    at async World.&lt;anonymous> (C:\Users\Usuario\Desktop\TABetleague\test\step-definitions\common-steps.ts:17:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1664502458093' status='pending' stop='1664502458093'>
+            <name>When The user login with username and password from admin</name>
+            <title>When The user login with username and password from admin</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.62'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1664502458093' status='pending' stop='1664502458093'>
+            <name>When the admin opens the dashboard on create category option</name>
+            <title>When the admin opens the dashboard on create category option</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.62'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1664502458093' status='pending' stop='1664502458093'>
+            <name>Then the page will show a table with the categories</name>
+            <title>Then the page will show a table with the categories</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.62'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1664502458094' status='pending' stop='1664502458094'>
+            <name>When the admin clicks on new category botton</name>
+            <title>When the admin clicks on new category botton</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.62'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1664502458094' status='pending' stop='1664502458094'>
+            <name>Then the page will show a form for create a new category</name>
+            <title>Then the page will show a form for create a new category</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.62'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1664502458094' status='pending' stop='1664502458094'>
+            <name>When the user types an empty  category and create</name>
+            <title>When the user types an empty  category and create</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.62'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1664502458094' status='pending' stop='1664502458094'>
+            <name>Then the page shows an error</name>
+            <title>Then the page shows an error</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.62'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1664502458095' status='passed' stop='1664502458095'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.62'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

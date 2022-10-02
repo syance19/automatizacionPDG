@@ -14,7 +14,7 @@ Feature: Admin actions and permissions
         When the user types the category and create
         And the category is on the table
 
-    # @TABetleague
+    @TABetleague
     Scenario: Create a empty categroy
         When the admin opens the dashboard on create category option
         Then the page will show a table with the categories

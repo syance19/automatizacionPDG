@@ -13,7 +13,6 @@ Then(/^the page will show a table with the categories$/, async () => {
     const actualTableTitle = await (await adminPage.tableOfCategories).getText();
     adminPage.toBe(actualTableTitle, testData.ADMIN_PAGE.GENERAL_DATA.TITLE_FOR_CATEGORIES_TABLE);
     const alo = await (await adminPage.tableResults).getText();
-    console.log(alo+'HPTAAAAAAAAAAAAA');
     
 });
 
